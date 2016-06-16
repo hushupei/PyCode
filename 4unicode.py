@@ -5,7 +5,7 @@ write then read
 CODEC ='utf-8'
 FILE='unicode.txt'
 
-hello_out=u'hello world\n'
+hello_out=u'hello I am test the connect world\n'
 bytes_out=hello_out.encode(CODEC)
 f=open(FILE,'w')
 f.write(bytes_out)
