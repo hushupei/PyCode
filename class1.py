@@ -10,4 +10,5 @@ if __name__ == '__main__':
 	fruit.grow()
 	print fruit.name
 	print fruit._Fruit__color
-	print fruit.color
+	#print fruit.color
+	print (fruit)
